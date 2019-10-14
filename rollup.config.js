@@ -51,7 +51,7 @@ export default {
       target: "public/index.html",
       replaceVars: {
         __CDN_URL__: production
-          ? "https://leomendoza123.github.io/mendoza.cr"
+          ? "/mendoza.cr/"
           : ""
       }
     })
