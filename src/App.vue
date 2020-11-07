@@ -2,13 +2,15 @@
   <HeroBanner />
   <TechStack />
   <Experience />
+  <Contact />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import TechStack from "./components/TechStack.vue";
-import HeroBanner from "./components/HeroBanner.vue";
-import Experience from "./components/Experience.vue";
+import TechStack from "./sections/TechStack-section.vue";
+import HeroBanner from "./sections/HeroBanner-section.vue";
+import Experience from "./sections/Experience-section.vue";
+import Contact from "./sections/Contact-section.vue";
 
 export default defineComponent({
   name: "App",
@@ -16,6 +18,7 @@ export default defineComponent({
     HeroBanner,
     TechStack,
     Experience,
+    Contact,
   },
 });
 </script>
@@ -76,11 +79,9 @@ p {
 
 .container {
   margin-top: 300px;
-  background-color: $base-color;
   display: flex;
   margin-left: -40px;
   margin-right: -40px;
   padding: 40px;
 }
-
 </style>

@@ -16,22 +16,22 @@
   <div>
     <Button :text="'HIRE ON UPWORK'" />
   </div>
-  <PlanetIlustration class="planet"></PlanetIlustration>
-  <OrbitIlustration class="orbit" />
+  <PlanetIllustration class="planet" />
+  <OrbitIllustration class="orbit" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Button from "./Button.vue";
-import PlanetIlustration from "./PlatnetIlustration.vue";
-import OrbitIlustration from "./OrbitIlustration.vue";
+import Button from "../components/Button-component.vue";
+import PlanetIllustration from "../illustrations/Platnet-illustration.vue";
+import OrbitIllustration from "../illustrations/Orbit-iIlustration.vue";
 
 export default defineComponent({
   name: "HelloWorld",
   components: {
     Button,
-    PlanetIlustration,
-    OrbitIlustration,
+    PlanetIllustration,
+    OrbitIllustration,
   },
 });
 </script>

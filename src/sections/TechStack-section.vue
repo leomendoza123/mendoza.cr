@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="ilustration-container">
-      <TechStackBackIlustration class="tech-stack-background" />
+      <TechStackBackIllustration class="tech-stack-background" />
 
-      <TechStackIlustration class="tech-stack" />
+      <TechStackIllustration class="tech-stack" />
     </div>
     <div class="text-container">
       <h2>Love open source</h2>
@@ -25,12 +25,12 @@ import { defineComponent } from "vue";
 import Button from "./Button.vue";
 import PlanetIlustration from "./PlatnetIlustration.vue";
 import OrbitIlustration from "./OrbitIlustration.vue";
-import TechStackIlustration from "./TechStackioIlustration.vue";
-import TechStackBackIlustration from "./TechStackBackIlustration.vue";
+import TechStackIllustration from "../illustrations/TechStack-illustration.vue";
+import TechStackBackIllustration from "../illustrations/TechStackBack-illustration.vue";
 
 export default defineComponent({
   name: "TechStack",
-  components: { TechStackIlustration, TechStackBackIlustration },
+  components: { TechStackIllustration, TechStackBackIllustration },
 });
 </script>
 
@@ -50,7 +50,6 @@ export default defineComponent({
   width: 1200px;
   margin-top: -60px;
   left: 0;
-  
 }
 
 .ilustration-container > svg {
@@ -71,7 +70,6 @@ export default defineComponent({
 }
 
 .tech-stack-background {
-
   width: 800px;
   margin-left: 200px;
 }

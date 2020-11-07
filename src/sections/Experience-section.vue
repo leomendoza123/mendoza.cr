@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="text-container">
+      <h2>Expirience</h2>
       <h3>tEST JOB 1</h3>
       <p>
         asdkjaskdjas daskjd oasikdo askd aosdi asdoias odias oasdkjaskdjas
@@ -22,17 +23,17 @@
       </p>
     </div>
     <div class="portrait-container">
-      <PortraitIlustration />
+      <PortraitIllustration />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import PortraitIlustration from "./PortraitIlustration.vue";
+import PortraitIllustration from "../illustrations/Portrait-illustration.vue";
 export default defineComponent({
   name: "Experience",
-  components: { PortraitIlustration },
+  components: { PortraitIllustration },
 });
 </script>
 
