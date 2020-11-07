@@ -1,15 +1,21 @@
 <template>
   <HeroBanner />
+  <TechStack />
+  <Experience />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import TechStack from "./components/TechStack.vue";
 import HeroBanner from "./components/HeroBanner.vue";
+import Experience from "./components/Experience.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     HeroBanner,
+    TechStack,
+    Experience,
   },
 });
 </script>
@@ -18,7 +24,10 @@ export default defineComponent({
 @import "./styles/styles.scss";
 body {
   background: $base-color;
-  background-image: radial-gradient(rgba(256,256,256,0.4) 1px, transparent 0);
+  background-image: radial-gradient(
+    rgba(256, 256, 256, 0.4) 1px,
+    transparent 0
+  );
   background-size: 40px 40px;
   background-position: -19px -19px;
 
@@ -61,5 +70,17 @@ p {
   margin: 0 auto;
   margin-top: 80px;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 }
+
+.container {
+  margin-top: 300px;
+  background-color: $base-color;
+  display: flex;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding: 40px;
+}
+
 </style>

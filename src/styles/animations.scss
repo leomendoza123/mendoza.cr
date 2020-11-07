@@ -40,6 +40,19 @@
   }
 }
 
+@keyframes moveAndDisapear {
+  from {
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  to {
+    transform: translate(-300px, -50px);
+    opacity: 0;
+  }
+}
+
 @keyframes spin {
   100% {
     transform: rotateZ(360deg);

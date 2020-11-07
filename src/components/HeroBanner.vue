@@ -13,7 +13,9 @@
     </li>
   </ul>
 
-  <Button :text="'HIRE ON UPWORK'" />
+  <div>
+    <Button :text="'HIRE ON UPWORK'" />
+  </div>
   <PlanetIlustration class="planet"></PlanetIlustration>
   <OrbitIlustration class="orbit" />
 </template>
