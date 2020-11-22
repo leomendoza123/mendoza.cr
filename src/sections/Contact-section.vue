@@ -24,6 +24,7 @@ export default defineComponent({
 @import "../styles/styles.scss";
 
 .container {
+  justify-content: center;
   background-color: #414141;
 }
 .text-container {

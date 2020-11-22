@@ -1,4 +1,5 @@
 <template>
+  <TechStackBackIllustration class="tech-stack-background" />
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -445,6 +446,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import TechStackBackIllustration from "../illustrations/TechStackBack-illustration.vue";
 
 export default defineComponent({
   name: "TechStackIlustration",
@@ -463,6 +465,7 @@ export default defineComponent({
       webpackDuration: Math.random() * 3 + 1.5 + "s",
     };
   },
+  components: { TechStackBackIllustration },
 });
 </script>
 
@@ -471,6 +474,12 @@ export default defineComponent({
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "../styles/animations.scss";
+
+.ilustration-container svg {
+  position: absolute;
+    width: 32%;
+  left: 16%;
+}
 
 #css,
 #typescript,

@@ -21,7 +21,7 @@ button {
   font-size: $paragraph;
   background-color: $base-light;
   border-radius: 5px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 20px 10px 20px;
   appearance: none;
   box-shadow: 5px 5px 25px rgba(255, 184, 0, 0.25);
   border: none;

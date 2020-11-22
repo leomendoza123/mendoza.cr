@@ -28,7 +28,7 @@ export default defineComponent({
 body {
   background: $base-color;
   background-image: radial-gradient(
-    rgba(256, 256, 256, 0.4) 1px,
+    rgba(256, 256, 256, 0.4) 0.7px,
     transparent 0
   );
   background-size: 40px 40px;
@@ -37,24 +37,62 @@ body {
   overflow-x: hidden;
 }
 h1 {
-  font-size: $header-1;
+  font-size: $header-big-1;
   margin: 0;
   font-weight: 400;
 }
+
 h2 {
-  font-size: $header-2;
+  font-size: $header-big-2;
   font-weight: 400;
   margin: 0;
 }
 
 h3 {
-  font-size: $header-3;
+  font-size: $header-big-3;
   font-weight: 400;
   margin: 0;
 }
+
+@media only screen and (max-width: 1575px) {
+  h1 {
+    font-size: $header-mid-1;
+  }
+  h2 {
+    font-size: $header-mid-2;
+  }
+  h3 {
+    font-size: $header-mid-3;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: $header-small-1;
+  }
+  h2 {
+    font-size: $header-small-2;
+  }
+  h3 {
+    font-size: $header-small-3;
+  }
+}
+
 h4 {
   font-size: $header-4;
   font-weight: 400;
+  margin: 0;
+}
+
+h5 {
+  font-size: $header-5;
+  font-weight: 400;
+  margin: 0;
+}
+
+h6 {
+  font-size: $header-6;
+  font-weight: 200;
   margin: 0;
 }
 p {
@@ -69,19 +107,37 @@ p {
   -moz-osx-font-smoothing: grayscale;
   color: $foreground-text;
   position: relative;
-  max-width: 2560px;
+  max-width: 1575px;
   margin: 0 auto;
-  margin-top: 80px;
   padding: 30px;
   display: flex;
   flex-direction: column;
+  border: solid 1px;
+}
+
+body {
+
+  max-width: 100%;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  #app {
+    padding: 5px;
+  }
+  body {
+    margin: 10px;
+    padding: 0;
+  }
 }
 
 .container {
   margin-top: 300px;
   display: flex;
-  margin-left: -40px;
-  margin-right: -40px;
   padding: 40px;
+}
+
+.subcontainer {
+  margin-bottom: 40px;
 }
 </style>

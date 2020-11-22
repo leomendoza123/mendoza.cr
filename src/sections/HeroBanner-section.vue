@@ -1,23 +1,27 @@
 <template>
-  <h1 class="slideInLeft">Build the future</h1>
-  <h1 class="slideInRight">Build web</h1>
+  <div class="container">
+    <div class="text-container">
+      <h1 class="slideInLeft">Build future</h1>
+      <h1 class="slideInRight">Build web</h1>
+      <h2>Leonardo Mendoza</h2>
+      <h3>Software developer</h3>
+      <ul>
+        <li>More than 5 years working with web technologies</li>
+        <li>Working experience with Angular since its release in 2016</li>
+        <li>
+          Coding practices to build high-performance applications
+        </li>
+      </ul>
 
-  <h2>Leonardo Mendoza</h2>
-  <h3>Software developer</h3>
-  <ul>
-    <li>More than 7 years working with web techonologies</li>
-    <li>Working expirience with Angular since it’s release in 2016</li>
-
-    <li>
-      Application performance, internationalizaiton and accesibility expert
-    </li>
-  </ul>
-
-  <div>
-    <Button :text="'HIRE ON UPWORK'" />
+      <div>
+        <Button :text="'HIRE ON UPWORK'" />
+      </div>
+    </div>
+    <div class="illustration-container">
+      <PlanetIllustration class="planet" />
+      <!-- <OrbitIllustration class="orbit" /> -->
+    </div>
   </div>
-  <PlanetIllustration class="planet" />
-  <OrbitIllustration class="orbit" />
 </template>
 
 <script lang="ts">
@@ -31,7 +35,7 @@ export default defineComponent({
   components: {
     Button,
     PlanetIllustration,
-    OrbitIllustration,
+    // OrbitIllustration,
   },
 });
 </script>
@@ -42,7 +46,6 @@ export default defineComponent({
 @import "../styles/animations.scss";
 
 .orbit {
-  position: absolute;
   top: 0;
   width: 50%;
   z-index: -50;
@@ -52,21 +55,70 @@ export default defineComponent({
 }
 
 .planet {
-  width: 947px;
-  position: absolute;
-  top: 40px;
-  right: 13%;
+  transform: scale(1.3) translate(25px, 67px);
   overflow: overlay;
-  z-index: -25;
+}
+
+.text-container,
+.illustration-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.text-container {
+  width: 60%;
+  justify-content: center;
 }
 
 button {
-  margin: 10px 0 10px 0;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  button {
+    margin: 0px;
+    margin-top: 15px;
+  }
+  .planet {
+    transform: none;
+    z-index: -20;
+    opacity: 0.4;
+    /* transform: translateY(-256px); */
+    position: absolute;
+    top: 481px;
+  }
+}
+
+.container {
+  margin-top: 0px;
 }
 
 ul {
   padding-left: 25px;
 
   // list-style-type: none;
+}
+
+li,
+h2,
+h3 {
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0;
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  .text-container,
+  .illustration-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    li {
+      list-style-type: none;
+    }
+  }
 }
 </style>
