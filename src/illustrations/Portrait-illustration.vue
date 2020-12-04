@@ -54,7 +54,8 @@ export default defineComponent({
 
 .portrait-illustrations {
   position: relative;
-  width: 700px;
+  width: 454px;
+  height: 700px;
 }
 
 .back {

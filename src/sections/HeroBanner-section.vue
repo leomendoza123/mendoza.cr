@@ -85,7 +85,7 @@ button {
     opacity: 0.4;
     /* transform: translateY(-256px); */
     position: absolute;
-    top: 481px;
+    top: 246px;
   }
 }
 

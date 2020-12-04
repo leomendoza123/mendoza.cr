@@ -132,7 +132,6 @@ body {
 }
 
 .container {
-  margin-top: 300px;
   display: flex;
   padding: 40px;
 }

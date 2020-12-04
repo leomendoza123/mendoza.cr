@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="text-container">
+      <h3>Recent experience</h3>
       <div class="subcontainer">
         <h5>💚 orcid.org</h5>
         <h6><strong>Front End Developer</strong></h6>
@@ -47,7 +48,7 @@
         <p>
           Since 2015 I have been working on multiple web projects, from a
           company ERP to an artificial neural network running on a frontend to
-          calculate a shopping card location at a supermarket. 
+          calculate a shopping card location at a supermarket.
         </p>
       </div>
     </div>
@@ -82,16 +83,29 @@ p {
 }
 
 .container {
+  display: flex;
   justify-content: flex-end;
 }
 
 .text-container {
-  max-width: 400px;
+  max-width: 700px;
   flex-grow: 0;
 }
 
 .portrait-container {
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  .ilustration-container {
+    width: 100%;
+    flex-shrink: 0;
+  }
 }
 
 @import "../styles/styles.scss";

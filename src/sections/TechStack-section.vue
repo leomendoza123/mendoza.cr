@@ -81,7 +81,7 @@ h5 {
 }
 
 .container {
-  margin-top: 300px;
+  margin-top: 100px;
   background-color: $base-mid;
   display: flex;
   margin-left: -40px;
@@ -90,28 +90,23 @@ h5 {
 }
 
 .ilustration-container {
+  width: 50%;
   flex-shrink: 0;
-  width: 1200px;
-  margin-top: -60px;
-  left: 0;
 }
 
 .text-container {
-  padding: 40px;
-  padding-left: 100px;
-  height: 600px;
+  max-width: 500px;
 }
 
-.tech-stack {
-  margin-top: 40px;
-  width: 800px;
-  overflow: overlay;
-  margin-left: 400px;
-}
-
-.tech-stack-background {
-  width: 800px;
-  margin-left: 200px;
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .ilustration-container {
+    width: 100%;
+    flex-shrink: 0;
+  }
 }
 
 @import "../styles/styles.scss";
