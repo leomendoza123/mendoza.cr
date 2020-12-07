@@ -19,7 +19,6 @@
     </div>
     <div class="illustration-container">
       <PlanetIllustration class="planet" />
-      <!-- <OrbitIllustration class="orbit" /> -->
     </div>
   </div>
 </template>
@@ -35,7 +34,6 @@ export default defineComponent({
   components: {
     Button,
     PlanetIllustration,
-    // OrbitIllustration,
   },
 });
 </script>
@@ -56,7 +54,7 @@ export default defineComponent({
 
 .planet {
   transform: scale(1.3) translate(25px, 67px);
-  overflow: overlay;
+  overflow: visible;
 }
 
 .text-container,

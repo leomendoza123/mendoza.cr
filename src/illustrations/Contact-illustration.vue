@@ -545,4 +545,8 @@ export default defineComponent({
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "../styles/animations.scss";
+
+svg {
+  max-width: 400px;   
+}
 </style>
