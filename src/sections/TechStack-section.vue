@@ -20,9 +20,9 @@
         <h5>Architecture, performance, and scalability</h5>
         <p>
           I work to have carefully designed
-          <strong> front-end architectures </strong> are well thought, highly
-          <strong>optimized</strong> and <strong>modularized</strong> to be
-          smoothly served to the end-users. Always looking to having great
+          <strong> front-end architectures </strong> that are well thought,
+          highly <strong>optimized</strong> and <strong>modularized</strong> to
+          be smoothly served to the end-users. Always looking to having high
           <strong>performance</strong> and a great
           <strong>user experience</strong>.
         </p>
@@ -43,9 +43,8 @@
           I have a trajectory working with
           <strong>cross-platform</strong> applications that require web
           <strong>accessibility</strong> and
-          <strong>internationalization</strong>. To serve every kind of user
-          across the world consuming the content from every type of browser and
-          device.
+          <strong>internationalization</strong>, in this way I have served all
+          kinds of users across the world.
         </p>
       </div>
     </div>
@@ -69,7 +68,7 @@ export default defineComponent({
 @import "../styles/styles.scss";
 
 h5 {
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
 h4,

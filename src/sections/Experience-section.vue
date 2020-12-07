@@ -6,56 +6,57 @@
         <h5>💚 orcid.org</h5>
         <h6><strong>Front End Developer</strong></h6>
 
-        <h6>2018-to the present</h6>
+        <h6>2018 - to the present</h6>
         <h6>Full remote</h6>
         <p>
-          Currently leading a front-end migration project from a monolithic
+          Currently leading a complete front-end migration from a monolithic
           project into a microservice <strong>Angular</strong> based project.
-          This project is currently consumed by
-          <strong>over a million unique users every week</strong>, translated
-          into <strong>12 languages</strong> including Arabic (yes right to left
-          display!), <strong>accessible</strong>, architected to have
-          <strong>great performance</strong>, be highly
-          <strong>maintainable</strong> and <strong>scalable</strong>, and is
-          100% <strong>open source</strong>. I am currently also participating
-          in the implementation of a tested and
-          <strong>automatized continuous integration</strong> and delivery
-          process.
+          Consumed by <strong>over a million unique users every week</strong>,
+          translated into <strong>12 languages</strong> including Arabic (yes
+          right to left display!), <strong>accessible</strong>, architected to
+          have <strong>great performance</strong>, highly
+          <strong>maintainable</strong>, <strong>scalable</strong>, and is 100%
+          <strong>open source</strong>.
+        </p>
+
+        <p>
+          Also participating in the implementation of a fully
+          <strong>tested and automatized continuous integration</strong>
+          and delivery process.
         </p>
 
         <p>
           Here I work with other developers, designers, tech support, and
-          product owners, using a Canvan methodology.
+          product owners, using a canvas methodology.
         </p>
       </div>
 
       <div class="subcontainer">
         <h5>👨‍🍳 pamperedchef.com</h5>
         <h6><strong>Full Stack Developer</strong></h6>
-        <h6>Mar 2018- Sep 2020</h6>
+        <h6>Mar 2018 - Sep 2020</h6>
         <h6>Full remote</h6>
         <p>
-          I did work on the migration of a web shopping cart from a monolithic
+          Worked on the migration of a web shopping cart from a monolithic
           java-based frontend into an Angular app. Consumed by over
           <strong>3 million daily users</strong>, accessible and build to have
           great performance.
         </p>
         <p>
-          There I worked with a full agile <strong>scrum</strong> methodology,
-          and <strong>fully tested and automated</strong> continuous integration
-          and delivery process as a member of one of the 5 technical teams, with
-          designers and scrum members.
+          There I worked with an agile <strong>scrum</strong> methodology,
+          <strong>tested and automated</strong> CI/CD process, and participating
+          on one of the 5 technical teams alongside designers and scrum members.
         </p>
       </div>
       <div class="subcontainer">
-        <h5>🧪Previous experience</h5>
-        <h6>Mar 2015- Sep 2018</h6>
+        <h5>🧪 Previous experience</h5>
+        <h6>Mar 2015 - Sep 2018</h6>
         <p>
           Since 2015 I have been working on multiple web projects featuring the
           build of an <strong>ERP</strong>, the build of an
-          <strong>artificial intelligence</strong> frontend application that
-          runs deep learning on the edge, and the use of
-          <strong>web maps</strong> to display geographical data.
+          <strong>artificial intelligence</strong> frontend application that ran
+          deep learning on the edge, and the use of
+          <strong>web charts </strong> to display geographical data.
         </p>
       </div>
     </div>

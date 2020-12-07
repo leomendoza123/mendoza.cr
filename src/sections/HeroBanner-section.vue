@@ -4,7 +4,7 @@
       <h1 class="slideInLeft">Build future</h1>
       <h1 class="slideInRight">Build web</h1>
       <h2>Leonardo Mendoza</h2>
-      <h3>Software developer</h3>
+      <h3>Web application developer</h3>
       <ul>
         <li>More than 5 years working on projects used by millions.</li>
         <li>Working experience with Angular since its release in 2016</li>
