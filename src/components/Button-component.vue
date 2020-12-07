@@ -1,5 +1,11 @@
 <template>
-  <button>{{ text }}</button>
+  <button
+    v-on:click="
+      navigate('https://www.upwork.com/freelancers/~0159c5b99b9daecc8e')
+    "
+  >
+    {{ text }}
+  </button>
 </template>
 
 <script lang="ts">
@@ -9,6 +15,11 @@ export default defineComponent({
   name: "Button",
   props: {
     text: String,
+  },
+  methods: {
+    navigate: (location: string) => {
+      window.location.href = location;
+    },
   },
 });
 </script>
@@ -30,14 +41,15 @@ button {
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   cursor: pointer;
 }
-button:hover, button:focus{
+buttona:hover,
+button:focus {
   // -webkit-transform: scale(1.05, 1.05);
   // transform: scale(.95, .95);
   box-shadow: 1px 1px 25px rgba(255, 184, 0, 0.25);
 }
 
 button:active {
-  transform: scale(.96, .96);
+  transform: scale(0.96, 0.96);
   box-shadow: none;
 }
 </style>

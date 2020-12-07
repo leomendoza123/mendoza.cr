@@ -7,12 +7,7 @@
     </div>
     <div class="text-container">
       <div class="subcontainer">
-        <h4>🛠️My tech stack</h4>
-        <p>
-          Over 5 years of experience working on projects used by millions. With
-          a deep passion for the details and attention for every line of code, I
-          have acquired bast knowledge on the following technologies.
-        </p>
+        <h4>🛠️My toolset</h4>
         <p>
           <strong>
             Javascript, Typescript, Angular, Angular Components, RxJS, Webpack,
@@ -22,31 +17,33 @@
       </div>
       <div class="subcontainer">
         <h4>📚Areas of expertise</h4>
-        <p>
-          Making SPA(simple single-page applications) and PWA (progressive web
-          apps) applying and bringing awareness to the web development best
-          practices.
-        </p>
         <h5>Architecture, performance, and scalability</h5>
         <p>
-          I design carefully designed front-end architectures that are well
-          thought, highly optimized, and modularized to be smoothly served to
-          the end-users. Always looking to having great performance and a great
-          user experience.
+          I work to have carefully designed
+          <strong> front-end architectures </strong> are well thought, highly
+          <strong>optimized</strong> and <strong>modularized</strong> to be
+          smoothly served to the end-users. Always looking to having great
+          <strong>performance</strong> and a great
+          <strong>user experience</strong>.
         </p>
         <h5>Code practices</h5>
         <p>
           My code is my passion, that is why I take great pride in building
-          easy-to-read highly maintainable code with a strong emphasis on OOP
-          (Object-oriented programming), componentization, and well-planned
-          styling systems. All this not only contributes to the immediate goals
-          of the projects but also to enable a long-lasting product life.
+          <strong>easy-to-read</strong> highly
+          <strong>maintainable</strong> code with a strong emphasis on
+          <strong>OOP</strong> (Object-oriented programming),
+          <strong>componentization</strong>, and well-planned
+          <strong>styling systems</strong>. All this not only contributes to the
+          immediate goals of the projects but also to enable a long-lasting
+          product life.
         </p>
 
-        <h5>Frontend cross-platform and inclusivity</h5>
+        <h5>Inclusivity</h5>
         <p>
-          I have a trajectory working with applications that require web
-          accessibility and internationalization. To serve every kind of user
+          I have a trajectory working with
+          <strong>cross-platform</strong> applications that require web
+          <strong>accessibility</strong> and
+          <strong>internationalization</strong>. To serve every kind of user
           across the world consuming the content from every type of browser and
           device.
         </p>
@@ -84,8 +81,6 @@ h5 {
   margin-top: 100px;
   background-color: $base-mid;
   display: flex;
-  margin-left: -40px;
-  margin-right: -40px;
   overflow: hidden;
 }
 

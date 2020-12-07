@@ -97,8 +97,11 @@ h6 {
 }
 p {
   font-size: $paragraph;
-  font-weight: 400;
+  font-weight: 200;
   margin: 0;
+  strong {
+    font-weight: 700;
+  }
 }
 
 #app {
@@ -116,7 +119,6 @@ p {
 }
 
 body {
-
   max-width: 100%;
   padding: 30px;
 }

@@ -6,10 +6,10 @@
       <h2>Leonardo Mendoza</h2>
       <h3>Software developer</h3>
       <ul>
-        <li>More than 5 years working with web technologies</li>
+        <li>More than 5 years working on projects used by millions.</li>
         <li>Working experience with Angular since its release in 2016</li>
         <li>
-          Coding practices to build high-performance applications
+          Focus to build high-performance applications
         </li>
       </ul>
 

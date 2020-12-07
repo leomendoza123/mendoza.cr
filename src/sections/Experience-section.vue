@@ -10,13 +10,17 @@
         <h6>Full remote</h6>
         <p>
           Currently leading a front-end migration project from a monolithic
-          Java-based front-end into a new shiny Angular project. This project is
-          consumed by over a million unique users every week, translated into 12
-          languages including Arabic (yes right to left display!), accessible,
-          architected to have great performance, be highly maintainable and
-          scalable, and 100% open source. I am currently also participating in
-          the implementation of a tested and automatized continuous integration
-          and delivery process.
+          project into a microservice <strong>Angular</strong> based project.
+          This project is currently consumed by
+          <strong>over a million unique users every week</strong>, translated
+          into <strong>12 languages</strong> including Arabic (yes right to left
+          display!), <strong>accessible</strong>, architected to have
+          <strong>great performance</strong>, be highly
+          <strong>maintainable</strong> and <strong>scalable</strong>, and is
+          100% <strong>open source</strong>. I am currently also participating
+          in the implementation of a tested and
+          <strong>automatized continuous integration</strong> and delivery
+          process.
         </p>
 
         <p>
@@ -32,23 +36,26 @@
         <h6>Full remote</h6>
         <p>
           I did work on the migration of a web shopping cart from a monolithic
-          java-based frontend into an Angular app. Consumed by over 3 million
-          daily users, accessible and build to have great performance. Alongside
-          a full agile scrum methodology, and fully tested and automated
-          continuous integration and delivery process.
+          java-based frontend into an Angular app. Consumed by over
+          <strong>3 million daily users</strong>, accessible and build to have
+          great performance.
         </p>
         <p>
-          There I worked 100% remote as a member of one of the 5 technical
-          teams, with other designers and scrum members.
+          There I worked with a full agile <strong>scrum</strong> methodology,
+          and <strong>fully tested and automated</strong> continuous integration
+          and delivery process as a member of one of the 5 technical teams, with
+          designers and scrum members.
         </p>
       </div>
       <div class="subcontainer">
-        <h5>🧪 Previous experience</h5>
+        <h5>🧪Previous experience</h5>
         <h6>Mar 2015- Sep 2018</h6>
         <p>
-          Since 2015 I have been working on multiple web projects, from a
-          company ERP to an artificial neural network running on a frontend to
-          calculate a shopping card location at a supermarket.
+          Since 2015 I have been working on multiple web projects featuring the
+          build of an <strong>ERP</strong>, the build of an
+          <strong>artificial intelligence</strong> frontend application that
+          runs deep learning on the edge, and the use of
+          <strong>web maps</strong> to display geographical data.
         </p>
       </div>
     </div>
@@ -90,6 +97,7 @@ p {
 .text-container {
   max-width: 700px;
   flex-grow: 0;
+  padding-right: 20px;
 }
 
 .portrait-container {
