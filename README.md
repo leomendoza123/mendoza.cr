@@ -1,29 +1,20 @@
-# mendoza.cr
+# 👋 Welcome to the source code of my website [Mendoza.cr](https://mendoza.cr/)!
 
-## Project setup
+I have taken this project as an opportunity to try [Vue](https://vuejs.org/), play around with CSS/SVG animations, build a fully automated delivery process with [Github Actions](https://github.com/features/actions), and use [Firebase Hosting](https://firebase.google.com/docs/hosting).
+
+I plan to keep improving this project, using it to share some of the posts about tech I have been planning to write for a while, so I hope procrastination doesn't kill this idea! 🥴 🚀
+
+# How to run and build!
+
+Just as any Vue project you can run:
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
+To build it run
+
 ```
 npm run build
 ```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
