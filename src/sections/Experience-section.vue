@@ -9,7 +9,7 @@
         <h6>2018 - to the present</h6>
         <h6>Full remote</h6>
         <p>
-          Currently leading a complete front-end migration from a monolithic
+          Currently leading a complete front end migration from a monolithic
           project into a microservice <strong>Angular</strong> based project.
           Consumed by <strong>over a million unique users every week</strong>,
           translated into <strong>12 languages</strong> including Arabic (yes
@@ -20,7 +20,7 @@
         </p>
 
         <p>
-          Also participating in the implementation of a fully
+          I am also participating in the implementation of a fully
           <strong>tested and automatized continuous integration</strong>
           and delivery process.
         </p>

@@ -7,9 +7,9 @@
       <h3>Web application developer</h3>
       <ul>
         <li>More than 5 years working on projects used by millions.</li>
-        <li>Working experience with Angular since its release in 2016</li>
+        <li>Working experience with Angular since its release in 2016.</li>
         <li>
-          Focus to build high-performance applications
+          Focus to build high-performance applications.
         </li>
       </ul>
 
